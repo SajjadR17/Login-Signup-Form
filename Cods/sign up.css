@@ -1,0 +1,351 @@
+a {
+  text-decoration: none;
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+* {
+  direction: ltr;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+body {
+  font-family: "Vazirmatn", "Poppins", sans-serif;
+  font-size: 16px;
+  cursor: default;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+  font-size: 1em;
+}
+
+header nav {
+  direction: rtl;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  font-size: 1em;
+  margin-bottom: 40px;
+}
+
+header nav .nav-right i {
+  align-items: center;
+  font-size: 1em;
+  color: #616060;
+  cursor: pointer;
+  padding: 7px 7px;
+  margin: 0px 5px;
+  justify-content: center;
+  border: none;
+  background: white;
+  border-radius: 7px;
+  transition: all 0.3s ease;
+  box-shadow: 0px 2px 2px 2px #333;
+}
+
+header nav .nav-right i:hover {
+  scale: 0.95;
+  box-shadow: 0px 1px 1px 1px #333;
+}
+
+header nav .nav-left .register-btn {
+  border: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  color: #616060;
+  background: white;
+  cursor: pointer;
+  padding: 5px 10px;
+  margin: 0px 5px;
+  border-radius: 7px;
+  box-shadow: 0px 2px 2px 2px #333;
+  transition: 0.3s ease;
+}
+
+header nav .nav-left .register-btn:hover {
+  scale: 0.95;
+  box-shadow: 0px 1px 1px 1px #333;
+}
+
+header nav .nav-left .register-btn a {
+  color: #616060;
+  font-size: 1em;
+  padding: 0px 5px;
+  transition: 0.7s ease;
+}
+
+header nav .nav-left .register-btn a:hover {
+  cursor: pointer;
+  color: black;
+}
+
+button {
+  width: 95%;
+  --primary-color: #666;
+  --secondary-color: #fff;
+  --hover-color: #444;
+  --arrow-width: 10px;
+  --arrow-stroke: 2px;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 20px;
+  color: var(--secondary-color);
+  padding: 10px;
+  background: var(--primary-color);
+  display: flex;
+  transition: 0.5s background;
+  align-items: center;
+  gap: 0.6em;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+button .arrow-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button .arrow {
+  margin-top: 1px;
+  width: var(--arrow-width);
+  background: var(--primary-color);
+  height: var(--arrow-stroke);
+  position: relative;
+  transition: 0.2s;
+}
+
+button .arrow::before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  border: solid var(--secondary-color);
+  border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+  display: inline-block;
+  top: -3px;
+  right: 3px;
+  transition: 0.2s;
+  padding: 3px;
+  transform: rotate(-45deg);
+}
+
+button:hover {
+  background-color: var(--hover-color);
+}
+
+button:hover .arrow {
+  background: var(--secondary-color);
+}
+
+button:hover .arrow:before {
+  right: 0;
+}
+
+body {
+  background-size: cover;
+  background-image: url(../pictures/vecteezy_landscape-of-mountains-and-pine-forests-the-mist-is-above_8277966.jpg);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  backdrop-filter: blur(15px);
+  border: 2px solid #222;
+  border-radius: 30px;
+  height: auto;
+  width: 350px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.email {
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  border: 1px solid #222;
+  border-radius: 30px;
+  padding: 10px;
+  width: 95%;
+  height: 40px;
+  outline: none;
+  text-align: center;
+  margin: 15px;
+}
+
+.email::placeholder {
+  color: black;
+  font-size: 12px;
+  text-align: center;
+}
+
+.email:focus {
+  outline: none;
+}
+
+.email:focus::placeholder {
+  color: transparent;
+}
+
+.pass {
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  border: 1px solid #222;
+  border-radius: 300px;
+  padding: 15px;
+  margin: 15px;
+  width: 95%;
+  height: 40px;
+  outline: none;
+  text-align: center;
+}
+
+.pass::placeholder {
+  color: black;
+  font-size: 12px;
+  text-align: center;
+}
+
+.pass:focus {
+  outline: none;
+}
+
+.pass:focus::placeholder {
+  color: transparent;
+}
+
+form p {
+  font-size: 12px;
+  direction: ltr;
+  margin: 15px;
+}
+
+.Sign-up-link {
+  font-size: 12px;
+  text-decoration: #777;
+  color: #444;
+}
