@@ -127,71 +127,6 @@ img {
   height: auto;
 }
 
-header {
-  font-size: 1em;
-}
-
-header nav {
-  direction: rtl;
-  display: flex;
-  justify-content: space-between;
-  padding: 10px 15px;
-  font-size: 1em;
-  margin-bottom: 25px;
-}
-
-header nav .nav-right i {
-  align-items: center;
-  font-size: 1em;
-  color: #616060;
-  cursor: pointer;
-  padding: 7px 7px;
-  margin: 0px 5px;
-  justify-content: center;
-  border: none;
-  background: white;
-  border-radius: 7px;
-  transition: 0.3s ease;
-  box-shadow: 0px 2px 2px 2px #333;
-}
-
-header nav .nav-right i:hover {
-  scale: 0.95;
-  box-shadow: 0px 1px 1px 1px #333;
-}
-
-header nav .nav-left .register-btn {
-  border: none;
-  justify-content: center;
-  align-items: center;
-  font-size: 1em;
-  color: #616060;
-  background: white;
-  cursor: pointer;
-  padding: 5px 10px;
-  margin: 0px 5px;
-  border-radius: 7px;
-  box-shadow: 0px 2px 2px 2px #333;
-  transition: 0.3s ease;
-}
-
-header nav .nav-left .register-btn:hover {
-  scale: 0.95;
-  box-shadow: 0px 1px 1px 1px #333;
-}
-
-header nav .nav-left .register-btn a {
-  color: #616060;
-  font-size: 1em;
-  padding: 0px 5px;
-  transition: 0.7s ease;
-}
-
-header nav .nav-left .register-btn a:hover {
-  cursor: pointer;
-  color: black;
-}
-
 button {
   width: 95%;
   --primary-color: #666;
@@ -258,6 +193,8 @@ button:hover .arrow:before {
 
 body {
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   background-image: url(../pictures/vecteezy_landscape-of-mountains-and-pine-forests-the-mist-is-above_8277966.jpg);
 }
 
@@ -274,6 +211,7 @@ form {
   width: 350px;
   margin: auto;
   padding: 30px;
+  margin-top: 100px;
 }
 
 h1 {
